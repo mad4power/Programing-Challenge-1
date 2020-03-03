@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Programming Challenge 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Programming Challenge 1</h1>
+      <div class="waitForResponse">Waiting for API response</div>
+      <div class="buttonsContainer">
+        <button data-action="create" id="create">Create Record</button>
+        <button data-action="get" id="get">Get Record</button>
+        <button data-action="update" id="update">Update Record</button>
+        <button data-action="delete" id="delete">Delete Record</button>
+      </div>
+      <div class="actionFields">
+        <div class="inputFields">
+          <label class="create update" for="name">Name</label>
+          <input class="create update" type="text" id="name"/>
+          <label class="create update" for="job">Job</label>
+          <input class="create update" type="text" id="job"/>
+          <label class="update delete" for="id">Id</label>
+          <input class="update delete" type="text" id="id"/>
+        </div>
+        <button class="submit" style="display: none;">Submit</button>
+      </div>
+      <div class="statusBox">
+        <h4>Status</h4>
+        <p class="status">Waiting for user</p>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+body {
+  background: grey;
+}
+
+#wrapper {
+  background: antiquewhite;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+}
+
+.buttonsContainer,
+.actionFields {
+  display: none;
+}
+
+.actionFields {
+  padding-top: 10px;
+}
+
+button {
+  background: #96c6f1;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+input {
+  display: block;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+h1,
+h4,
+p,
+label {
+  font-family: sans-serif;
+}
+
+table {
+  border-spacing: 0;
+}
+
+td {
+  padding: 5px;
+}
+
+label,
+td {
+  font-size: 12px;
+}
+
+td:nth-child(1) {
+  background: #d8d8d8;
+  padding-right: 10px;
+}
+
+.status {
+  background: #fff;
+  font-size: 12px;
+  padding: 10px;
+}
